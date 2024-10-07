@@ -1,0 +1,87 @@
+.professor-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.professor-dashboard h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.office-hours {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.office-hours h3 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.office-hours ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.office-hours li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.add-office-hour {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-office-hour select,
+.add-office-hour .react-datepicker-wrapper {
+  width: 100%;
+}
+
+.add-office-hour button {
+  align-self: flex-start;
+}
+
+.professor-dashboard a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.professor-dashboard a:hover {
+  text-decoration: underline;
+}
+
+.office-hours li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.office-hours li button:first-of-type {
+  background-color: #3498db;
+  color: white;
+}
+
+.office-hours li button:last-of-type {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.office-hours li button:hover {
+  opacity: 0.8;
+}
