@@ -43,4 +43,3 @@ This project uses the following main dependencies:
 - React DatePicker: A simple and reusable datepicker component for React
 - Vite: A build tool that aims to provide a faster and leaner development experience for modern web projects
 
-To install these dependencies, run:
